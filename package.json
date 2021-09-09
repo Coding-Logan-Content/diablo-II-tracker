@@ -1,0 +1,32 @@
+{
+  "name": "diablo-ii-tracker",
+  "version": "1.0.0",
+  "description": "A simple tracker app for diablo ii",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coding-Logan-Content/diablo-II-tracker.git"
+  },
+  "author": "codingLogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coding-Logan-Content/diablo-II-tracker/issues"
+  },
+  "homepage": "https://github.com/Coding-Logan-Content/diablo-II-tracker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
