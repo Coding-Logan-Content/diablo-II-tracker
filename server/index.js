@@ -6,6 +6,7 @@ import TestModel from './models/testModel.js'
 
 // Read in the .env configurations
 dotenv.config()
+const API_PORT = process.env.API_PORT || 5000
 connect()
 
 // Creating an instance of the server
@@ -19,4 +20,4 @@ app.get('/api/test', async (req, res) => {
 })
 
 // Set the server to listen on a port
-app.listen(5000, console.log('started listening'))
+app.listen(API_PORT, console.log(`API is listening on port ${API_PORT}`))
