@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server/index.js"
+    "server": "node server/index.js",
+    "watch": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
